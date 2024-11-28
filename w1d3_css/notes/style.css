@@ -73,11 +73,12 @@ h1{
 .grid-item1{
     /* grid-area: header; */
     grid-column: 1 / 4;
-
+ 
 }
 .grid-item2{
     /* grid-area: sidebar; */
     grid-row: 2 / 3;
+    
 
 }
 .grid-item3{
