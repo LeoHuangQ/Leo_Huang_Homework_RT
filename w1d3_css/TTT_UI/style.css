@@ -1,0 +1,22 @@
+.grid-container {
+    background-color: rgb(253, 58, 15);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    width: 306px;
+    height: 306px;
+    border: 5px solid black;
+}
+
+.grid-item {
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    
+    border: 20px solid rgb(63, 77, 107);
+    /* margin: 10px; */
+}
