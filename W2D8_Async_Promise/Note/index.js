@@ -51,7 +51,68 @@ getId() // return result , pass to the next function getValue
 
 // use both .then and async/await to write, including error handling
 // fetch API from jsonplaceholder
-// write a promise-based function that return a random number after a delay
-// use Promise.all to write an example
+let getPosts = function getPostsFunc(){
+    return fetch('https://jsonplaceholder.typicode.com/posts/1')
+        .then((response)=>{
+            return response.json()
+        })
+        .then((data)=>{  
+            console.log("data", data);
+            return data;
+        })
+        .catch((error) => {
+                console.error("Error fetching posts:", error);
+              });
+}
 
+// console.log(getPosts());
+getPosts().then((data)=> console.log('function getPosts data: ' + data));
+
+let posts = async function getPostsfunc2(){
+    let response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+    let data = await response.json();
+    console.log(data);
+    return data;
+} 
+
+// console.log(posts());
+posts().then((data)=> console.log('function posts data: ' +data));
+
+
+// write a promise-based function that return a random number after a delay
+let pickNum = function randomNumber(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(() => {
+            resolve(Math.random());
+        }, 1000);
+    })
+}
+
+pickNum()
+    .then((num)=>{
+        console.log('Random num is: ' + num);
+    })
+    .catch((err)=>{
+        console.log('Error mgs: '+ err);
+    })
+
+// use Promise.all to write an example
+let promiseAll = async function(){
+    try{
+        let getA =  fetch('https://jsonplaceholder.typicode.com/posts/1')
+                    .then((response)=>{
+                        return response.json();
+                    });
+        let getB =  fetch('https://jsonplaceholder.typicode.com/posts/2')
+                    .then((response)=>{
+                        return response.json();
+                    });
+        return  Promise.all([getA, getB]).then((values)=>{
+            console.log(values);
+        })
+    } catch(error){
+        console.log('Error is: ' + error.message)
+    }
+}
+promiseAll();
 
