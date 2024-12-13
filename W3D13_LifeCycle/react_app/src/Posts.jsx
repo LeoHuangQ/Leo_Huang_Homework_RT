@@ -22,7 +22,9 @@ function Posts() {
     return (
       <>  
       <div>
-        <button onClick={fetchNext}>Click to get Next</button>
+        <h3>Click to get new post</h3>
+        <button onClick={fetchNext}>Click Here</button>
+        <p>Current Post ID is: {postId}</p>
         <p style={{width: "300px"}}>{postInfo}</p>
       </div>
         

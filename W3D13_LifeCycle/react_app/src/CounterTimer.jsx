@@ -39,7 +39,9 @@ function CounterTimer() {
     return (
       <>  
       <div>
+        <h3>Counter Timer</h3>
       <label>{count}</label>
+      <br></br>
         <button onClick={timeStart}>Start</button>
         <button onClick={timeStop}>Pause</button>
         <button onClick={timeReset}>Reset</button>

@@ -43,3 +43,8 @@
 .container{
   display: flex;
 }
+.container .card{
+  width: 300px;
+  border: 1px solid #efefef;
+  margin: 10px 10px 10px 10px;
+}

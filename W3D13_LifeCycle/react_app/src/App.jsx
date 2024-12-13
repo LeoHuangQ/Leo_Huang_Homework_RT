@@ -4,20 +4,21 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Posts from './Posts';
 import CounterTimer from './CounterTimer';
+import PostsVariation from './PostVariation';
 
-function App() {
-  const [postId, setPostId] = useState(1);
-  const [postInfo, setPostInfo] = useState('');
-  
+export default function App() {
     
   return (
     <>  
     <div className="container">
-      <div>
+      <div className='card'>
         <Posts></Posts>
       </div>
-      <div>
+      <div className='card'>
         <CounterTimer></CounterTimer>
+      </div>
+      <div className='card'>
+        <PostsVariation></PostsVariation>
       </div>
     </div>
       
@@ -26,4 +27,3 @@ function App() {
 }
 
 
-export default App
