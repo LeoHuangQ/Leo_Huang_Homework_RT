@@ -7,6 +7,10 @@ interface Post {
   body: string;
 }
 
+
+// implement in W3D12 folder
+//////////////////////////////
+
 // export default function FetchPostByIdApp() {
 //   const [postId, setPostId] = useState(1);
 //   const [post, setPost] = useState<Post | {}>({});
