@@ -2,13 +2,16 @@ import { useEffect, useState } from "react";
 import Posts from "./Posts";
 import AllPost from "./AllPost";
 import RNG from "./RNG";
+import Products from "./Products";
+
 
 export default function App() {
   return (
-    <div>
+    <div className="container">
+      <Products/>
       {/* <Posts /> */}
       {/* <AllPost/> */}
-      <RNG />
+      {/* <RNG /> */}
     </div>
   );
 }
