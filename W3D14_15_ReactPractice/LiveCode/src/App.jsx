@@ -3,6 +3,7 @@ import Posts from "./Posts";
 import AllPost from "./AllPost";
 import RNG from "./RNG";
 import Products from "./Products";
+import "./App.css";
 
 
 export default function App() {
