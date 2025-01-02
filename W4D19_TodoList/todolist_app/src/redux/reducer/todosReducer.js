@@ -9,6 +9,7 @@ const todo_options = {
   add: "TODO_ADDED",
   update: "TODO_UPDATE",
   delete: "TODO_DELETE",
+  remove: "TODO_REMOVE"
 };
 
 export default function todosReducer(state = initialState, action) {
@@ -30,6 +31,8 @@ export default function todosReducer(state = initialState, action) {
     case todo_options.delete:
       console.log('delete',action.payload)
       return state.filter((todo) => todo.id !== action.payload.id);
+    case todo_options.remove:
+      return state.filter((todo)=> todo.completed !== true);
     default:
       return state;
   }
@@ -45,4 +48,8 @@ export const updateTodo = (payload) => {
 
 export const deleteTodo = (payload) => {
   return { type: todo_options.delete, payload };
+};
+
+export const removeTodo = () => {
+  return { type: todo_options.remove };
 };
