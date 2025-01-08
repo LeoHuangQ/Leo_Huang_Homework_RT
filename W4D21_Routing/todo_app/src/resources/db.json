@@ -1,0 +1,144 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "task": "Buy groceries",
+      "completed": false,
+      "date": "2024-01-02",
+      "description": "Purchase fruits, vegetables, and dairy products"
+    },
+    {
+      "id": "2",
+      "task": "Finish project report",
+      "completed": true,
+      "date": "2023-12-30",
+      "description": "Complete and submit the annual project report"
+    },
+    {
+      "id": "3",
+      "task": "Call plumber",
+      "completed": false,
+      "date": "2024-01-05",
+      "description": "Fix leaking kitchen faucet"
+    },
+    {
+      "id": "4",
+      "task": "Clean garage",
+      "completed": false,
+      "date": "2024-01-07",
+      "description": "Organize tools and remove unnecessary items"
+    },
+    {
+      "id": "5",
+      "task": "Read a book",
+      "completed": true,
+      "date": "2023-12-28",
+      "description": "Finish reading 'Atomic Habits'"
+    },
+    {
+      "id": "6",
+      "task": "Pay electricity bill",
+      "completed": false,
+      "date": "2024-01-03",
+      "description": "Ensure timely payment of electricity bill"
+    },
+    {
+      "id": "7",
+      "task": "Schedule doctor appointment",
+      "completed": false,
+      "date": "2024-01-06",
+      "description": "Annual health check-up appointment"
+    },
+    {
+      "id": "8",
+      "task": "Plan vacation",
+      "completed": true,
+      "date": "2023-12-31",
+      "description": "Finalize destination and book tickets for summer vacation"
+    },
+    {
+      "id": "9",
+      "task": "Attend team meeting",
+      "completed": true,
+      "date": "2023-12-29",
+      "description": "Discuss project milestones with the team"
+    },
+    {
+      "id": "10",
+      "task": "Prepare presentation",
+      "completed": false,
+      "date": "2024-01-04",
+      "description": "Create slides for the quarterly business review"
+    },
+    {
+      "id": "11",
+      "task": "Go for a run",
+      "completed": true,
+      "date": "2023-12-27",
+      "description": "Complete a 5km morning run in the park"
+    },
+    {
+      "id": "12",
+      "task": "Fix bicycle",
+      "completed": false,
+      "date": "2024-01-08",
+      "description": "Repair the flat tire on the bicycle"
+    },
+    {
+      "id": "13",
+      "task": "Send holiday cards",
+      "completed": true,
+      "date": "2023-12-26",
+      "description": "Mail greeting cards to family and friends"
+    },
+    {
+      "id": "14",
+      "task": "Organize closet",
+      "completed": false,
+      "date": "2024-01-09",
+      "description": "Declutter and arrange clothes neatly"
+    },
+    {
+      "id": "15",
+      "task": "Learn React",
+      "completed": false,
+      "date": "2024-01-10",
+      "description": "Complete the beginner's React tutorial online"
+    },
+    {
+      "id": "16",
+      "task": "Watch a movie",
+      "completed": true,
+      "date": "2023-12-25",
+      "description": "Watch the new blockbuster release at the theater"
+    },
+    {
+      "id": "17",
+      "task": "Plant a tree",
+      "completed": false,
+      "date": "2024-01-11",
+      "description": "Participate in the community tree-planting drive"
+    },
+    {
+      "id": "18",
+      "task": "Host a dinner",
+      "completed": false,
+      "date": "2024-01-12",
+      "description": "Invite friends over for a cozy dinner at home"
+    },
+    {
+      "id": "19",
+      "task": "Donate old clothes",
+      "completed": true,
+      "date": "2023-12-30",
+      "description": "Give away gently used clothes to charity"
+    },
+    {
+      "id": "20",
+      "task": "Write a blog post",
+      "completed": false,
+      "date": "2024-01-13",
+      "description": "Publish an article about New Year resolutions"
+    }
+  ]
+}
